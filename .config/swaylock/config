@@ -1,0 +1,55 @@
+# The defaults below could be overridden in $XDG_CONFIG_HOME/swaylock/config
+#  (~/.config/swaylock/config).
+#
+# Image path supports environment variables and shell expansions,
+# e.g. image=$HOME/Pictures/default.png
+
+# Configuration Options
+ignore-empty-password
+
+# Appearance
+# Indicators
+show-keyboard-layout
+indicator-caps-lock
+
+# Background Image
+image=$HOME/Pictures/Wallpapers/swaylock.jpg
+scaling=fill
+
+# Font
+font='JetBrains Mono'
+font-size=15
+
+# Indicator
+indicator-radius=150
+indicator-thickness=15
+inside-color=#2d0017aa
+inside-clear-color=#ffc7e0aa
+inside-caps-lock-color=#811331aa
+inside-ver-color=#ffc7e0aa
+inside-wrong-color=#80004baa
+
+key-hl-color=#fe019aaa
+
+layout-bg-color=#47002755
+layout-border-color=#00000000
+layout-text-color=#ffedf5
+
+line-color=#63003900
+line-clear-color=#00000000
+line-caps-lock-color=#673147aa
+line-ver-color=#00000000
+line-wrong-color=#00000000
+
+ring-color=#ff76b7aa
+ring-clear-color=#00000000
+ring-caps-lock-color=#673147aa
+ring-ver-color=#00000000
+ring-wrong-color=#00000000
+separator-color=#00000000
+
+text-color=#ffedf5
+text-clear-color=#ffedf5
+text-caps-lock-color=#ffedf5
+text-ver-color=#ffedf5
+text-wrong-color=#ffedf5
